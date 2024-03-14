@@ -15,8 +15,8 @@
         <div class="form-container sign-up">
             <form method="post" action="register.php">
                 <h1>Create Account</h1>
-                <input type="firstname" placeholder="FirstName">
-                <input type="lastname" placeholder="LastName">
+                <input type="firstName" placeholder="FirstName">
+                <input type="lastName" placeholder="LastName">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">
                 <button>Sign Up</button>
