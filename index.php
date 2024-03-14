@@ -15,10 +15,10 @@
         <div class="form-container sign-up">
             <form method="post" action="register.php">
                 <h1>Create Account</h1>
-                <input type="text" placeholder="Name">
+                <input type="firstname" placeholder="FirstName">
+                <input type="lastname" placeholder="LastName">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">
-                <input type="password" placeholder="Confirm Password">
                 <button>Sign Up</button>
             </form>
         </div>
@@ -27,7 +27,9 @@
                 <h1>Sign In</h1>
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">
-                <a href="#">Forget Your Password?</a>
+                <p <class="Recover">
+                <a href="#">Recover Password</a>
+                </p>
                 <button>Sign In</button>
             </form>
         </div>
